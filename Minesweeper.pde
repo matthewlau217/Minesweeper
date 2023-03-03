@@ -115,8 +115,8 @@ public class MSButton
         //your code here
         if (mouseButton == RIGHT) {
           flagged = !flagged;
-          if (flagged == false)
-            clicked = false;
+          //if (flagged == false)
+          //  clicked = false;
         } 
         else if (mines.contains(this)) {
           displayLosingMessage();
