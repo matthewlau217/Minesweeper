@@ -62,7 +62,7 @@ public void displayLosingMessage()
 public void displayWinningMessage()
 {
     //your code here
-    String win = "      You Win!";
+    String win = "     You Win!";
     if (isWon())
      for (int i = 0; i < NUM_COLS; i++) {
       buttons[NUM_COLS / 2][i].setLabel(win.substring(i - 1, i));
